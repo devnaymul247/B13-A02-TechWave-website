@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+    nav h2 {
+        font-size: 32px;
+    }
+    nav ul, nav button {
+        display: none;
+    }
+    nav img {
+        display: inline;
+    }
+    nav {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+}

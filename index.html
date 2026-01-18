@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>B13-A02-TechWave-website</title>
 </head>
 <body>
-    <header></header>
+    <header class="bg-[#1a0a2e] border border-b-[#9100F8]">
+        <nav class="flex items-center justify-between py-6 mx-auto text-white max-w-[1200px]">
+            <h2 class="text-[42px] font-bold">Tech<span>Wave</span></h2>
+            <ul class="sm:flex gap-8">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Episodes</a></li>
+                <li><a href="#">Host</a></li>
+            </ul>
+            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <img class="hidden" src="./assets/hamburger-menu.png" alt="Menu Icon">
+        </nav>
+    </header>
 </body>
 </html>
