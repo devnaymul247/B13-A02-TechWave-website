@@ -26,7 +26,24 @@
 .grid-blurb img {
     padding-top: 0;
 }
+.meet-container {
+    flex-direction: column;
+    text-align: center;
+}
+.social-container{
+    align-items: center;
+    justify-content: center;
+}
+.meet-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meet-container img {
+    width: 100%;
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
 }
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {}
