@@ -11,6 +11,21 @@
     nav {
         padding: 20px;
     }
+    .about-podcast-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+}
+.grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.grid-blurb {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.grid-blurb img {
+    padding-top: 0;
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {

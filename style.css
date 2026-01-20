@@ -17,3 +17,18 @@ nav button {
 nav button:hover {
     background: linear-gradient(20deg, #9100F8, #FB09B4, #F7E93F);
 }
+
+/* about podcast section styles */
+.about-podcast-container {
+    border-bottom: 1px solid #9100F8;
+}
+.grid-blurb h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.grid-blurb {
+    background-color: #2a0f4d;
+    padding: 30px;
+    border-radius: 40px;
+}
