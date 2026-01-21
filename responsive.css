@@ -45,8 +45,11 @@
 .meet-container img {
     width: 100%;
 }
+.icon-list-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
 
 }
-
+}
 
 @media screen and (min-width: 577px) and (max-width: 992px) {}
