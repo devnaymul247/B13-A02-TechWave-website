@@ -42,9 +42,6 @@
     align-items: center;
     justify-content: center;
 }
-.meet-container img {
-    width: 100%;
-}
 .icon-list-container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 20px;
@@ -52,6 +49,9 @@
 }
 footer {
     background-size: contain ;
+}
+.featured-pisodes-container {
+    flex-direction: column;
 }
 }
 
