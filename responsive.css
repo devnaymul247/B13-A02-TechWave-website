@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    #hero-section {
+    background-position: center;
+}
     nav h2 {
         font-size: 32px;
     }
