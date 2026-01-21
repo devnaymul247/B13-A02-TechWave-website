@@ -54,4 +54,9 @@ nav button:hover, .btn-group button:first-child:hover {
 .social-container div:hover{
     border: 1px solid #9100F8;
 }
-
+.card {
+    overflow: hidden;
+}
+.icon-list-duration {
+    color: #00FF88;
+}

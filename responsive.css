@@ -50,6 +50,9 @@
     row-gap: 20px;
 
 }
+footer {
+    background-size: contain ;
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {}
